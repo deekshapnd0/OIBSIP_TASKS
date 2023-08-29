@@ -1,8 +1,7 @@
-package NumberGuessingGame;
-
+package programs;
 // Java program for number guessing game
 import java.util.Scanner;
-    public class numberguessinggame{
+    public class numberguessinggame {
         public static void NumberguessingGame(){
             Scanner sc = new Scanner(System.in);
             // Generate the numbers to be guessed
@@ -41,8 +40,10 @@ import java.util.Scanner;
         }
 
         // Driver Code
-public static void main(String[] args){
-        // function call
-    NumberguessingGame();
+        public static void main(String arg[]) {
+
+            // Function Call
+            NumberguessingGame();
         }
     }
+
